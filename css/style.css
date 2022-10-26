@@ -111,7 +111,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-nav {
   display: flex;
@@ -145,14 +145,14 @@ body {
   color: var(--acent-color);
 }
 .active {
-position: relative;
+  position: relative;
 }
 
 .active::after {
   position: absolute;
   bottom: 0;
   display: block;
-  
+
   width: 100%;
   content: "";
   border-bottom: 2px solid var(--acent-color);
@@ -236,6 +236,8 @@ position: relative;
   display: flex;
 }
 
+/* flashfal */
+
 .features-list .item {
   width: 270px;
 }
@@ -291,7 +293,6 @@ position: relative;
 }
 .work-list {
   display: flex;
-
 }
 
 .work-list .item:not(:last-child) {
@@ -321,12 +322,11 @@ position: relative;
   text-align: center;
   background-color: rgba(47, 48, 58, 0.8);
 
-
- color: var(--primary-white-color);
- font-weight: 700;
- font-size: 14px;
- line-height: 16px;
- text-transform: uppercase;
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 
 /*------------------------- team---------------- */
@@ -397,7 +397,8 @@ position: relative;
   align-items: center;
   justify-content: center;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link:hover,
@@ -450,7 +451,8 @@ position: relative;
 
   color: var(--icon-soc-color);
 
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
@@ -571,19 +573,18 @@ position: relative;
   align-items: flex-end;
 }
 
-.email-input { 
+.email-input {
   width: 358px;
   margin-right: 12px;
   margin-top: 20px;
   padding: 15px 0 15px 16px;
-  
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.25 ; 
+  line-height: 1.25;
   letter-spacing: 0.03em;
-  
+
   color: rgba(255, 255, 255, 0.6);
 
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -599,7 +600,7 @@ position: relative;
 
 .footer-btn {
   padding: 10px 28px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -608,10 +609,9 @@ position: relative;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
   background-color: var(--acent-color);
-  
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -623,13 +623,12 @@ position: relative;
 .footer-btn:hover,
 .footer-btn:focus {
   background-color: var(--secondary-acent-color);
-
 }
 
- .footer-btn-svg {
+.footer-btn-svg {
   margin-left: 10px;
   width: 24px;
- }
+}
 
 /* ----------------portfolio.html -------------------*/
 .portfolio {
@@ -664,8 +663,8 @@ position: relative;
   display: inline-block;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-list .item-btn:not(:first-child) {
@@ -698,20 +697,20 @@ position: relative;
 }
 
 .portfolio-text {
- position: absolute;
- top: 0;
- padding: 23px 63px;
+  position: absolute;
+  top: 0;
+  padding: 23px 63px;
 
- height: 100%;
+  height: 100%;
 
- font-weight: 400;
- font-size: 18px;
- line-height: 28px;
- color: #ffffff;
- background-color: rgba(33, 150, 243, 0.9);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
 
- transform: translateY(100%);
- transition: transform 250ms linear;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
 }
 
 .card-border {
@@ -767,20 +766,17 @@ position: relative;
   color: var(--primary-text-color);
 }
 
-
-
 /* ----------------------modal------------------------- */
 
 .backdrop {
- position: fixed;
- top: 0;
+  position: fixed;
+  top: 0;
 
- width: 100%;
- height: 100%;
- background-color: rgba(0, 0, 0, 0.2);
- transition: opacity 300ms linear, visibility 300ms linear ;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 300ms linear, visibility 300ms linear;
 }
-
 
 .modal {
   padding: 40px;
@@ -792,8 +788,7 @@ position: relative;
   top: 50%;
   left: 50%;
 
-
-  transform: translate( -50%, -50%) scaleY(1);
+  transform: translate(-50%, -50%) scaleY(1);
   transition: transform 400ms linear;
 }
 
@@ -826,37 +821,36 @@ position: relative;
 }
 
 .modal-text {
- font-weight: 700;
- font-size: 20px;
- line-height: 1.15 ;
- text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
 
- color: #212121;
+  color: #212121;
 
- margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .modal-input {
-
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 12px 0 12px 42px;
-} 
+}
 
 .form-field {
   margin-bottom: 10px;
 }
 
-.input-wrapper { 
+.input-wrapper {
   position: relative;
 }
 
 .form-icon {
   position: absolute;
-  top: 50% ;
-  
-  left: 12px ;
+  top: 50%;
+
+  left: 12px;
   transform: translateY(-50%);
 }
 
@@ -865,11 +859,9 @@ position: relative;
   outline: 0px;
 }
 
-
 .modal-input:focus ~ .form-icon {
   fill: var(--acent-color);
 }
-
 
 .form-textarea:focus {
   border: 1px solid var(--acent-color);
@@ -877,28 +869,27 @@ position: relative;
 }
 
 .modal-label {
- margin-bottom: 4px;
+  margin-bottom: 4px;
 
- font-weight: 400;
- font-size: 12px;
- line-height: 1.16 ;
- letter-spacing: 0.01em;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
 
- color: #757575;
+  color: #757575;
 }
 
 .checkbox-label {
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
 
- font-weight: 400;
- font-size: 14px;
- line-height: 1.71;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .checkbox-label a {
   text-decoration-line: underline;
-  color: #2196F3;
-
+  color: #2196f3;
 }
 
 .modal textarea {
@@ -913,7 +904,7 @@ position: relative;
 }
 
 .modal textarea::placeholder {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -953,21 +944,19 @@ position: relative;
 
 .send-btn {
   padding: 10px 52px;
-  
 
   display: block;
   margin: 30px auto 0 auto;
   cursor: pointer;
-  
+
   background-color: var(--acent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 1px solid var(--acent-color);
 
-
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875 ;
+  line-height: 1.875;
   letter-spacing: 0.06em;
 
   color: var(--primary-white-color);
